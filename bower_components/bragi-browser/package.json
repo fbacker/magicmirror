@@ -1,0 +1,39 @@
+{
+  "name": "bragi-browser",
+  "version": "0.0.11",
+  "description": "Javascript logging framework for the browser",
+  "main": "lib/bragi.js",
+  "author": "Erik Hazzard <enoex1@gmail.com>",
+  "contributors": [
+    "Nils Schlomann <nils@five.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enoex/Bragi-Browser"
+  },
+  "keywords": [
+    "log",
+    "logging",
+    "utility",
+    "tools",
+    "browser"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "brfs": "^1.2.0",
+    "browserify": "^5.10.1",
+    "uglify-js": "^2.4.15"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/enoex/Bragi-Browser/issues"
+  },
+  "homepage": "https://github.com/enoex/Bragi-Browser",
+  "directories": {
+    "example": "examples",
+    "test": "./node-modules/mocha/bin/mocha test"
+  }
+}

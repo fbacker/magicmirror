@@ -1,0 +1,32 @@
+{
+  "name": "MagicMirror",
+  "version": "0.0.0",
+  "authors": [
+    "Fredrick Bäcker <fredrick.backer@gmail.com>"
+  ],
+  "main": "js/main.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-rss": "^3.2.1",
+    "jquery": "^2.2.2",
+    "moment": "^2.12.0",
+    "ical.js": "^1.1.2",
+    "chance": "^1.0.0",
+    "underscore": "^1.8.3",
+    "bragi-browser": "^0.0.11",
+    "weather-icons": "^2.0.10",
+    "font-awesome": "^4.5.0",
+    "noty": "^2.3.8",
+    "animate.css": "^3.5.1"
+  }
+}

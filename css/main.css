@@ -1,0 +1,391 @@
+body,
+html {
+    background: #000;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: "HelveticaNeue-Light", sans-serif;
+    /*letter-spacing: -2px;*/
+    color: #fff;
+    font-size: 75px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricprecision;
+}
+
+/**
+        POSITIONS
+**/
+.top {
+    position: absolute;
+    top: 50px;
+}
+.left {
+    position: absolute;
+    left: 50px;
+}
+.left > div {
+    float:left;
+}
+
+.right {
+    position: absolute;
+    right: 50px;
+    text-align: right;
+}
+.right > div {
+    float:right;
+}
+
+.dimmed {
+    color: #aaa;
+}
+
+
+
+
+
+
+
+/**
+        FONTS
+*/
+.xxsmall,
+.xsmall,
+.small {
+    font-family: "HelveticaNeue-Medium", sans-serif;
+    letter-spacing: 0;
+}
+
+.xxsmall {
+    font-size: 15px;
+}
+
+.xxsmall .wi {
+    line-height: 15px;
+}
+
+.xsmall {
+    font-size: 20px;
+}
+
+.xsmall .wi {
+    line-height: 20px;
+}
+
+.small {
+    font-size: 25px;
+}
+.light {
+    font-family: "HelveticaNeue-UltraLight", sans-serif;
+}
+
+
+/* TIME */
+.clock {
+    padding-top: 30px;
+}
+.clock > .time {
+    float: left;
+}
+.clock > .week {
+    float: right;
+}
+.date > .day {
+    color: #fff;
+}
+
+/* CALENDAR */
+
+.calendars {
+    clear:both;
+}
+.calendars > ul {
+    padding-left: 0px;
+}
+.calendars > ul > li {
+    list-style: none;
+}
+.calendars > ul > li > .fa {
+    padding-right: 10px;
+}
+.calendars > ul > li > span > .time {
+    float: right;
+    padding-left: 15px;
+}
+.calendars > ul > li > span > .travel {
+    padding-left: 28px;
+}
+
+/*
+.calendars > div > .title {
+    color: #fff;
+}
+.calendars > .calendar > .content > div > .fa {
+    font-size: 12px;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.calendars > .calendar > .content > div > span > .time {
+    float: right;
+    padding-left: 15px;
+}
+.calendars > .calendar > .content > div > span > .travel {
+    padding-left: 28px;
+}
+*/
+
+/** WEATHER **/
+.weather > .windsun > div {
+    float: right;
+    padding-left: 20px;
+}
+.weather > .temperature {
+    clear: both;
+}
+.weather > .temperature > .description {
+    padding-bottom: 12px;
+}
+.weather > .temperature > .content:after {
+    content: "\00b0"
+}
+
+.weather > .forecast {
+    margin-top: 25px;
+}
+.weather > .forecast > .detailed {
+    margin-top: 25px;
+}
+.weather > .forecast > .detailed > ul:nth-child(2n+3) {
+    clear: both;
+}
+.weather > .forecast > .detailed > ul {
+    margin: 0px;
+    margin-top: 15px;
+    float: left;
+}
+.weather > .forecast > .detailed > ul > lh {
+    float: left;
+}
+.weather > .forecast > .detailed > ul > li:nth-child(2) {
+    clear: both;
+}
+.weather > .forecast > .detailed > ul > li {
+    list-style: none;
+}
+.weather > .forecast > .detailed > ul > li > .content > .temp:after {
+    content: "\00b0"
+}
+
+.weather > .forecast > .week > div > .name {
+    width: 40px;
+    display: inline-flex;
+}
+.weather > .forecast > .week > div > .day {
+    width: 40px;
+    display: inline-flex;
+}
+.weather > .forecast > .week > div > .night {
+    width: 40px;
+    display: inline-flex;
+}
+.weather > .forecast > .week > div > .day:after {
+    content: "\00b0"
+}
+.weather > .forecast > .week > div > .night:after {
+    content: "\00b0"
+}
+
+/*
+
+.wi {
+  line-height: 75px;
+}
+
+.top {
+  position: absolute;
+  top: 50px;
+}
+
+.left {
+  position: absolute;
+  left: 50px;
+}
+
+.right {
+  position: absolute;
+  right: 50px;
+  text-align: right;
+}
+
+.center-ver {
+  position: absolute;
+  top: 50%;
+  height: 200px;
+  margin-top: -100px;
+  line-height: 100px;
+}
+
+.lower-third {
+  position: absolute;
+  top: 66.666%;
+  height: 200px;
+  margin-top: -100px;
+  line-height: 100px;
+}
+
+.center-hor {
+  position: absolute;
+  right: 50px;
+  left: 50px;
+  text-align: center;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 50px;
+}
+
+
+
+.small .wi {
+  line-height: 25px;
+}
+
+.medium {
+  font-size: 35px;
+  letter-spacing: -1px;
+  font-family: "HelveticaNeue-Light", sans-serif;
+}
+
+.medium .wi {
+  line-height: 35px;
+}
+
+.xdimmed {
+  color: #666;
+}
+
+.dimmed {
+  color: #aaa;
+}
+
+
+
+.icon {
+  position: relative;
+  top: -10px;
+  display: inline-block;
+  font-size: 45px;
+  padding-right: 5px;
+  font-weight: 100;
+  margin-right: 10px;
+}
+
+.icon-small {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: -10px;
+  font-weight: 100;
+}
+
+.time .sec {
+  font-size: 25px;
+  color: #666;
+  padding-left: 5px;
+  position: relative;
+  top: -35px;
+}
+
+.forecast-table {
+  float: right;
+  text-align: right;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.forecast-table .day,
+.forecast-table .temp-min,
+.forecast-table .temp-max {
+  width: 50px;
+  text-align: right;
+}
+
+.forecast-table .temp-max {
+  width: 60px;
+}
+
+.forecast-table .day {
+  color: #999;
+}
+
+.calendar-table {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.calendar-table .calendar-icon {
+  width: 1em;
+  min-width: 1em;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.calendar-table .days {
+  padding-left: 20px;
+  text-align: right;
+}
+
+.dishwasher {
+  background-color: white;
+  color: black;
+  margin: 0 200px;
+  font-size: 60px;
+  border-radius: 1000px;
+  border-radius: 1200px;
+  display: none;
+}
+
+*/
+
+@font-face {
+  font-family: 'HelveticaNeue-UltraLight';
+  src: url('../font/HelveticaNeue-UltraLight.eot');
+  /* IE9 Compat Modes */
+  src: url('../font/HelveticaNeue-UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/HelveticaNeue-UltraLight.woff') format('woff'), /* Modern Browsers */
+  url('../font/HelveticaNeue-UltraLight.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../font/HelveticaNeue-UltraLight.svg#9453ea8da727d260bcdbfa605bdbb5d2') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Medium';
+  src: url('../font/HelveticaNeue-Medium.eot');
+  /* IE9 Compat Modes */
+  src: url('../font/HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/HelveticaNeue-Medium.woff') format('woff'), /* Modern Browsers */
+  url('../font/HelveticaNeue-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../font/HelveticaNeue-Medium.svg#d7af0fd9278f330eed98b60dddea7bd6') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Light';
+  src: url('../font/HelveticaNeue-Light.eot');
+  /* IE9 Compat Modes */
+  src: url('../font/HelveticaNeue-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/HelveticaNeue-Light.woff') format('woff'), /* Modern Browsers */
+  url('../font/HelveticaNeue-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../font/HelveticaNeue-Light.svg#7384ecabcada72f0e077cd45d8e1c705') format('svg');
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 200;
+}
