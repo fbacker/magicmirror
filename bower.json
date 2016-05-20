@@ -27,6 +27,7 @@
     "weather-icons": "^2.0.10",
     "font-awesome": "^4.5.0",
     "noty": "^2.3.8",
-    "animate.css": "^3.5.1"
+    "animate.css": "^3.5.1",
+    "rrule": "^2.1.0"
   }
 }
